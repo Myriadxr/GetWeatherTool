@@ -99,7 +99,7 @@ def get_weather(city_id):
     :param city_id: 城市ID
     :return:天气信息
     """
-    url = 'https://www.tianqiapi.com/api/?version=v1&cityid=%s' % (city_id)
+    url = 'https://www.tianqiapi.com/api/?version=v1&cityid=%s' % ( city_id )
     response = requests.get(url)
     response.raise_for_status()
     # Load json data into a python variable.

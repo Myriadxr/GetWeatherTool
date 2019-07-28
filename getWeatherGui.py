@@ -115,7 +115,7 @@ def get_weather(city_id):
     content = []
     for one in (tips[0], tips[3], tips[5]):
         content.append("\n--{}--\n指数等级：{}\n温馨提示：{}\n".format(one['title'], one['level'], one['desc']))
-    ret2 = ('').join(content)
+    ret2 = (' ').join(content)
     return ret1, ret2
 
 
