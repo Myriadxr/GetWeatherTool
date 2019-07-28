@@ -1,0 +1,3 @@
+# GetWeatherTool
+城市天气查询的小工具
+dist文件夹中的exe文件用于windows下的可执行
