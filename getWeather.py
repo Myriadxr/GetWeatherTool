@@ -117,7 +117,7 @@ def get_weather(city_id):
     tips = (w['index'])
     ret = '\033[34;31m城市名称：\033[0m{}' \
           '\n\033[34;31m今日天气：\033[0m{}，' \
-          '\n\033[34;31m温度范围：\033[0m{}-{}'.format(city, wea, lowest, highest)
+          '\n\033[34;31m温度范围：\033[0m{}——{}\n'.format(city, wea, lowest, highest)
     print(ret)
 
     for d in tips:
